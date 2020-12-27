@@ -1,0 +1,22 @@
+
+Developing Async CRUD APIs using FastAPI
+
+https://www.tutlinks.com/fastapi-with-postgresql-crud-async/
+https://www.tutlinks.com/comprehensive-guide-publishing-existing-code-to-github-for-absolute-beginners/
+https://gitforwindows.org/ download Git-2.29.2.3-64-bit.exe - de nem installáltam: túl sok kérdés
+Új repo a github-on:
+   https://github.com/rypotter/fastapi-postgres-tutorial.git
+C:\py\fastapi-postgres-tutorial>git init
+C:\py\fastapi-postgres-tutorial>git remote add origin https://github.com/rypotter/fastapi-postgres-tutorial.git
+C:\py\fastapi-postgres-tutorial>git remote -v
+(env) C:\py\fastapi-postgres-tutorial>git pull origin main
+
+
+https://github.com/windson/fastapi/tree/fastapi-postgresql-azure-deploy
+python -m venv env
+pip install fastapi uvicorn gunicorn databases[postgresql]
+
+Ezzel müxik:
+DATABASE_URL = 'postgresql://postgres:postgres@centos7.datex:5432/pgdb'
+http://localhost:8000/docs#/
+http://localhost:8000/notes/
