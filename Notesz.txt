@@ -16,8 +16,8 @@ The file will have its original line endings in your working directory.
 (env) C:\py\fastapi-postgres-tutorial>git config user.email ry.potter@gmail.com
     (--global nélkül csak erre a repo-ra)
 (env) C:\py\fastapi-postgres-tutorial>git commit -m "Initial commit"
-(env) C:\py\fastapi-postgres-tutorial>git push origin master
-    (kérte: rypotter/...B...1)
+(env) C:\py\fastapi-postgres-tutorial>git push origin HEAD:main
+    (kérte: rypotter/...B...
 
 
 
