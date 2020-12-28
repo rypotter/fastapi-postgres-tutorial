@@ -3,23 +3,6 @@ Developing Async CRUD APIs using FastAPI
 
 https://www.tutlinks.com/fastapi-with-postgresql-crud-async/
 https://www.tutlinks.com/comprehensive-guide-publishing-existing-code-to-github-for-absolute-beginners/
-https://gitforwindows.org/ download Git-2.29.2.3-64-bit.exe - de nem installáltam: túl sok kérdés
-Új repo a github-on:
-   https://github.com/rypotter/fastapi-postgres-tutorial.git
-C:\py\fastapi-postgres-tutorial>git init
-C:\py\fastapi-postgres-tutorial>git remote add origin https://github.com/rypotter/fastapi-postgres-tutorial.git
-C:\py\fastapi-postgres-tutorial>git remote -v
-(env) C:\py\fastapi-postgres-tutorial>git pull origin main
-(env) C:\py\fastapi-postgres-tutorial>git add .
-warning: LF will be replaced by CRLF in .idea/inspectionProfiles/profiles_settings.xml.
-The file will have its original line endings in your working directory.
-(env) C:\py\fastapi-postgres-tutorial>git config user.email ry.potter@gmail.com
-    (--global nélkül csak erre a repo-ra)
-(env) C:\py\fastapi-postgres-tutorial>git commit -m "Initial commit"
-(env) C:\py\fastapi-postgres-tutorial>git push origin HEAD:main
-    (kérte: rypotter/...B...
-
-
 
 
 https://github.com/windson/fastapi/tree/fastapi-postgresql-azure-deploy
