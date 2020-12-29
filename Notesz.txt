@@ -15,3 +15,17 @@ Ezzel müxik:
 
 http://localhost:8000/docs#/
 http://localhost:8000/notes/
+
+GIT:
+echo "# my-first-repo-on-github" >> README.md
+git init
+# Create New repository on GitHub
+# git remote add origin url
+git remote add origin https://github.com/your-awesome-username/name-of-your-repository.git
+git remote -v
+git pull origin master
+# or in case of fatal: refusing to merge unrelated histories
+git pull origin master --allow-unrelated-histories
+git add .
+git commit -m 'init'
+git push origin master
