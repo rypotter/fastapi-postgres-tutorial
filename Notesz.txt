@@ -3,6 +3,7 @@ Developing Async CRUD APIs using FastAPI
 
 https://www.tutlinks.com/fastapi-with-postgresql-crud-async/
 https://www.tutlinks.com/comprehensive-guide-publishing-existing-code-to-github-for-absolute-beginners/
+https://www.tutlinks.com/create-and-deploy-fastapi-app-to-heroku/
 
 
 https://github.com/windson/fastapi/tree/fastapi-postgresql-azure-deploy
@@ -10,7 +11,6 @@ python -m venv env
 pip install fastapi uvicorn gunicorn databases[postgresql]
 
 Ezzel müxik:
-
 (env) C:\py\fastapi-postgres-tutorial>uvicorn --port 8000 --host 127.0.0.1 main:app --reload
 
 http://localhost:8000/docs#/
