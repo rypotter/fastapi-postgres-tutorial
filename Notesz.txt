@@ -11,5 +11,7 @@ pip install fastapi uvicorn gunicorn databases[postgresql]
 
 Ezzel müxik:
 
+(env) C:\py\fastapi-postgres-tutorial>uvicorn --port 8000 --host 127.0.0.1 main:app --reload
+
 http://localhost:8000/docs#/
 http://localhost:8000/notes/
