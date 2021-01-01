@@ -40,7 +40,9 @@ class DbSettings(BaseSettingsHandler):
 dbs = DbSettings()
 
 db_url = f'postgresql://{dbs.usr}:{dbs.pwd}@{dbs.host}:{dbs.port}/{dbs.db}'
-# print(DATABASE_URL)
+print(db_url)
+db_url = os.getenv('DATABASE_URL')
+print(db_url)
 
 # #
 # # from functools import lru_cache
