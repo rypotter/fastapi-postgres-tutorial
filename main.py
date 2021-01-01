@@ -67,7 +67,7 @@ notes = sqlalchemy.Table(
 engine = sqlalchemy.create_engine(
     db_url, pool_size=3, max_overflow=0
 )
-metadata.create_all(engine)
+# metadata.create_all(engine)
 
 
 class NoteIn(BaseModel):
